@@ -3,4 +3,4 @@ from fastapi import FastAPI
 app = FastAPI()
 @app.get("/")
 def read_root():
-    return {"Hello": "PAF!PAF!PAF!"}
+    return {"Hello": "PAF!webhook!"}
